@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/KDTechniques/countdown-flipper-swiftui.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "8e49f4860e0ddb3a7fe35f62e66cb30df29e002b"
+        "revision" : "8e49f4860e0ddb3a7fe35f62e66cb30df29e002b",
+        "version" : "1.0.0"
       }
     }
   ],
