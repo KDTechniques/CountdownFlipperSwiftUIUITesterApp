@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		82B3E4E62CE3686E0045E08B /* CountdownFlipperSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 82B3E4E52CE3686E0045E08B /* CountdownFlipperSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		82B3E49D2CE33D710045E08B /* CountdownFlipperSwiftUIUITesterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownFlipperSwiftUIUITesterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B3E4E62CE3686E0045E08B /* CountdownFlipperSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = CountdownFlipperSwiftUIUITesterApp;
 			packageProductDependencies = (
+				82B3E4E52CE3686E0045E08B /* CountdownFlipperSwiftUI */,
 			);
 			productName = CountdownFlipperSwiftUIUITesterApp;
 			productReference = 82B3E49D2CE33D710045E08B /* CountdownFlipperSwiftUIUITesterApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 82B3E4942CE33D710045E08B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				82B3E4E42CE3686E0045E08B /* XCRemoteSwiftPackageReference "countdown-flipper-swiftui" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 82B3E49E2CE33D710045E08B /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82B3E4E42CE3686E0045E08B /* XCRemoteSwiftPackageReference "countdown-flipper-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KDTechniques/countdown-flipper-swiftui.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82B3E4E52CE3686E0045E08B /* CountdownFlipperSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B3E4E42CE3686E0045E08B /* XCRemoteSwiftPackageReference "countdown-flipper-swiftui" */;
+			productName = CountdownFlipperSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82B3E4952CE33D710045E08B /* Project object */;
 }

@@ -1,0 +1,15 @@
+{
+  "originHash" : "1de0471f65ca17e402d4d818e12267b6aa912e485e47d7cab9ae1a4b0fbb483e",
+  "pins" : [
+    {
+      "identity" : "countdown-flipper-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KDTechniques/countdown-flipper-swiftui.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8e49f4860e0ddb3a7fe35f62e66cb30df29e002b"
+      }
+    }
+  ],
+  "version" : 3
+}
